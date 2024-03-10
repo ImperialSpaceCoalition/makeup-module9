@@ -1,8 +1,8 @@
 
-# Test Readme for Video
+# README Generator
 
 ## Description
-A test of the application
+An application designed to help generate a README quickly and efficiently. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,10 +13,10 @@ A test of the application
 - [Questions](#questions)
 
 ## Installation
-Open in external terminal, and then use node to run the index.js file. the rest will handle itself!
+Use the terminal in the root folder and then type 'npm i'. Afterwords, the dependencies will be installed. now open the index.js file in external terminal and type 'node index.js'
 
 ## Usage
-To generate a professional Readme quickly!
+
 
 ## License
 undefined
@@ -24,12 +24,12 @@ undefined
 undefined
 
 ## Contributing
-n/a
+na
 
 ## Tests
-make sure dependencies are installed via 'npm i'
+na
 
 ## Questions
 For questions or inquiries, please contact:
 - GitHub: [IcelandicSpaceCoalition](https://github.com/IcelandicSpaceCoalition)
-- Email: N/A
+- Email: 9realmsstudio@gmail.com

@@ -1,8 +1,8 @@
 
-# na
+# Test Readme for Video
 
 ## Description
-na
+A test of the application
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,10 +13,10 @@ na
 - [Questions](#questions)
 
 ## Installation
-na
+Open in external terminal, and then use node to run the index.js file. the rest will handle itself!
 
 ## Usage
-na
+To generate a professional Readme quickly!
 
 ## License
 undefined
@@ -24,12 +24,12 @@ undefined
 undefined
 
 ## Contributing
-na
+n/a
 
 ## Tests
-na
+make sure dependencies are installed via 'npm i'
 
 ## Questions
 For questions or inquiries, please contact:
-- GitHub: [na](https://github.com/na)
-- Email: na
+- GitHub: [IcelandicSpaceCoalition](https://github.com/IcelandicSpaceCoalition)
+- Email: N/A
