@@ -1,26 +1,3 @@
-// TODO: Include packages needed for this application
-//See Line 20
-
-// TODO: Create an array of questions for user input
-// const questions = []; See Line 24
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {} See Line 74
-
-// TODO: Create a function to initialize app
-// function init() {} See line 81
-
-// Function call to initialize app
-// init(); See Line 90
-
-
-
-
-
-// Included packages needed for this application
-
-
-
 // Included packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
