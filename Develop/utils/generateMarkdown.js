@@ -1,24 +1,100 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+// function generateMarkdown(data) {
+//   return `# ${data.title}
 
+// `;
+// }
+
+// module.exports = generateMarkdown;
+
+
+
+// // Function that returns a license badge based on which license is passed in
+// function renderLicenseBadge(license) {
+//   // Implement logic to return the appropriate badge
+// }
+
+// // Function that returns the license link
+// function renderLicenseLink(license) {
+//   // Implement logic to return the appropriate license link
+// }
+
+// // Function that returns the license section of README
+// function renderLicenseSection(license) {
+//   // Implement logic to return the license section
+// }
+
+
+
+
+
+// Function to render the license badge based on the license type
+function renderLicenseBadge(license) {
+  // Logic to generate the license badge content based on the license type
+}
+
+// Function to render the license link based on the license type
+function renderLicenseLink(license) {
+  // Logic to generate the license link content based on the license type
+}
+
+// Function to render the license section of README
+function renderLicenseSection(license) {
+  // Logic to generate the license section content based on the license type
+}
+
+// Function to generate markdown for README
+function generateMarkdown(data) {
+  return `
+# ${data.title}
+
+## Description
+${data.description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)}
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+For questions or inquiries, please contact:
+- GitHub: [${data.github}](https://github.com/${data.github})
+- Email: ${data.email}
 `;
 }
 
+// Export the functions
 module.exports = generateMarkdown;
-
-
-
 
